@@ -78,7 +78,7 @@ export default class Results extends React.Component {
     if (loading === true) {
       return <Loading text='Battling' />
     }
-
+    
     if (error) {
       return (
         <p className='center-text error'>{error}</p>
